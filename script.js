@@ -1,10 +1,11 @@
+// Lista de carros con rutas relativas
 const carros = [
   { nombre: "Ferrari 488", marca: "ferrari", imagen: "img/Ferrari 488.avif" },
   { nombre: "Lamborghini Huracán", marca: "lamborghini", imagen: "img/Lamborghini-Huracan-EVO-Spyder_1_o.jpg" },
-  { nombre: "Porsche 911 Turbo S", marca: "porsche", imagen: "C:\\Users\\jc297\\OneDrive\\Desktop\\html.luis\\img\\Porsche 911 Turbo S.webp" },
-  { nombre: "Ferrari SF90", marca: "ferrari", imagen: "C:\\Users\\jc297\\OneDrive\\Desktop\\html.luis\\img\\Ferrari SF90.webp" },
-  { nombre: "Lamborghini Aventador", marca: "lamborghini", imagen: "C:\\Users\\jc297\\OneDrive\\Desktop\\html.luis\\img\\Lamborghini Aventador.avif" },
-  { nombre: "Porsche Taycan", marca: "porsche", imagen: "C:\\Users\\jc297\\OneDrive\\Desktop\\html.luis\\img\\Porsche Taycan.png" }
+  { nombre: "Porsche 911 Turbo S", marca: "porsche", imagen: "img/Porsche 911 Turbo S.webp" },
+  { nombre: "Ferrari SF90", marca: "ferrari", imagen: "img/Ferrari SF90.webp" },
+  { nombre: "Lamborghini Aventador", marca: "lamborghini", imagen: "img/Lamborghini Aventador.avif" },
+  { nombre: "Porsche Taycan", marca: "porsche", imagen: "img/Porsche Taycan.png" }
 ];
 
 const container = document.getElementById("carros-container");
@@ -50,3 +51,4 @@ document.getElementById("form-contacto").addEventListener("submit", e => {
   alert("Mensaje enviado con éxito 🚗💨");
   e.target.reset();
 });
+
